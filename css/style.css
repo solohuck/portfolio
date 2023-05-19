@@ -96,7 +96,7 @@ textarea {
 
 .heading-sec__main--lt::after {
   content: '';
-  background: #facf0f!important
+  background: whitesmoke!important
 }
 
 .heading-sec__main::after {
@@ -105,7 +105,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #facf0f;
+  background: white;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px
@@ -139,8 +139,8 @@ textarea {
 }
 
 .btn {
-  background: #facf0f;
-  color: #333;
+  background: black;
+  color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
@@ -165,14 +165,14 @@ textarea {
 }
 
 .btn--theme {
-  background: #facf0f;
+  background: black;
   color: #111
 }
 
 .btn--theme-inv {
   color: #111;
   background: #fff;
-  border: 2px solid #facf0f;
+  border: 2px solid black;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px)
 }
@@ -225,7 +225,7 @@ textarea {
 }
 
 .home-hero__social-icon-link:hover {
-  background: rgba(250,207,15,.2)
+  background: whitesmoke
 }
 
 .home-hero__social-icon-link--bd-none {
@@ -281,26 +281,7 @@ textarea {
 }
 
 .header__logo-container:hover {
-  color: #facf0f
-}
-
-.header__logo-img-cont {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50px;
-  overflow: hidden;
-  margin-right: 1.5rem;
-  background: #facf0f
-}
-
-.header__logo-img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-  display: block
+  color: whitesmoke
 }
 
 .header__logo-sub {
@@ -326,6 +307,6 @@ textarea {
 }
 
 .header__link:hover {
-  color: #facf0f
+  color: whitesmoke
 }
 
