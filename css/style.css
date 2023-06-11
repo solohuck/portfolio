@@ -214,7 +214,7 @@ textarea {
 
 .about {
   background-image: url(../images/mtn-background.jpeg);
-  background-size: 3500px ;
+  background-size: 7000px ;
 }
 
 .about__content {
@@ -254,10 +254,17 @@ textarea {
   color: #facf0f;
   margin: 0 3px
 }
+
+.projects{
+  background-image: url(../images/mtn-background.jpeg);
+  background-size: 10000px ;
+}
+
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
+  background-image: url(../images/mtn-background.jpeg);
   margin-bottom: 11rem
 }
 
@@ -281,6 +288,7 @@ textarea {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-image: url(../images/mtn-background.jpeg);
   align-items: flex-start
 }
 
@@ -296,6 +304,108 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem
+}
+
+.contact {
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/mtn-background.jpeg);
+}
+
+.contact__form-container {
+  box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+  background: #fff;
+  padding: 4rem;
+  margin-top: 6rem;
+  max-width: 80rem;
+  text-align: right;
+  width: 95%;
+  border-radius: 5px;
+  margin: 5rem auto 0 auto;
+  background-image: url(../images/mtn-background.jpeg);
+}
+
+.contact__form-field {
+  margin-bottom: 4rem
+}
+
+.contact__form-label {
+  color: black;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left
+}
+
+.contact__form-input {
+  color: #333;
+  padding: 2rem;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  background: white;
+  border-radius: 5px;
+  font-weight: 600
+}
+
+.contact__form-input::-moz-placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input:-ms-input-placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input::placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input:-ms-input-placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input::-ms-input-placeholder {
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input:-moz-placeholder {
+  opacity: 1;
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__form-input::-moz-placeholder {
+  opacity: 1;
+  color: #999;
+  font-weight: 600;
+  font-size: 1.6rem
+}
+
+.contact__btn {
+  width: 30%;
+  padding: 2rem 4rem;
+  font-size: 1.6rem
 }
 
 .header {
